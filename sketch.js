@@ -14,7 +14,8 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  // background(200);
+  clear()
   
   rotationAmount += rotationS
   rotate(rotationAmount, axis);
@@ -23,7 +24,7 @@ function draw() {
   
 }
 
-
+//fook off m8
 
 function mouseWheel(event) {
   isScrolling = true
